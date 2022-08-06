@@ -1,0 +1,4 @@
+set ProjectLocation = 
+cd %ProjectLocation%
+set Classpath = %ProjectLocation%\bin;%ProjectLocation= %\lib\*
+java org.testng.TestNG%ProjectLocation%\Classes.xml
